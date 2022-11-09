@@ -51,7 +51,6 @@ points(x=min_rss_coefs[1], y=min_rss_coefs[2], pch=16, cex=1)
 
 # Q4: Analyze the data generated in Q1 using a grid search to minimize the negative log likelihood (no need to iterate more than twice).  Note, there is a third parameter that you will need to estimate here: sigma
 
-
 calc_nll <- function(y_obs, y_pred, sigma){
   -sum(dnorm(x=y_obs, mean=y_pred, sd=sigma, log=T))
 }
