@@ -114,7 +114,7 @@ optim_coef <- fit$par
 optim_coef
 
 #This did converge, the estimates are not on the bounds that we gave the function but within bounds 
-#If we blow the bounds out we can see that this is the global maximum (we still need to do this)
+#If we blow the bounds out we can see that this is the global maximum
 
 # Q6: Plot a likelihood profile for the slope parameter while estimating the conditional MLEs of the intercept and sig for each plotted value of the slope parameter (see p. 173 of Hilborn and Mangel).
 
